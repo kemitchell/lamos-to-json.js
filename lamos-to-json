@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+require('pump')(
+  process.stdin,
+  require('lamos').toJSON(),
+  process.stdout,
+  function (error) {
+    throw error
+  }
+)

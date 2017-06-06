@@ -1,0 +1,13 @@
+{
+  "name": "lamos-to-json",
+  "description": "command-line filter from LAMOS to JSON",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "bin": "lamos-to-json",
+  "license": "MIT",
+  "repository": "kemitchell/lamos-to-json.js",
+  "dependencies": {
+    "lamos": "^2.0.2",
+    "pump": "^1.0.2"
+  }
+}
