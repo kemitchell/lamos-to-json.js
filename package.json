@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "bin": "lamos-to-json",
-  "license": "MIT",
-  "repository": "kemitchell/lamos-to-json.js",
   "dependencies": {
     "flush-write-stream": "^1.0.2",
     "lamos": "^2.0.2",
     "pump": "^1.0.2"
-  }
+  },
+  "license": "MIT",
+  "repository": "kemitchell/lamos-to-json.js"
 }
