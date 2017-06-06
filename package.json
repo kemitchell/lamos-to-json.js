@@ -1,7 +1,7 @@
 {
   "name": "lamos-to-json",
   "description": "command-line filter from LAMOS to JSON",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "bin": "lamos-to-json",
   "dependencies": {
