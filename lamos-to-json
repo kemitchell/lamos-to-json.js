@@ -2,8 +2,19 @@
 require('pump')(
   process.stdin,
   require('lamos').toJSON(),
-  process.stdout,
+  require('flush-write-stream')(
+    function write (chunk, encoding, done) {
+      process.stdout.write(chunk, encoding)
+      done()
+    },
+    function flush (done) {
+      process.stdout.write('\n')
+      done()
+    }
+  ),
   function (error) {
-    throw error
+    if (error) {
+      throw error
+    }
   }
 )
