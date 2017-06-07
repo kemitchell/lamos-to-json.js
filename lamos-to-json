@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 require('pump')(
   process.stdin,
-  require('./'),
+  require('./')(),
   require('flush-write-stream')(
     function write (chunk, encoding, done) {
       process.stdout.write(chunk, encoding)
