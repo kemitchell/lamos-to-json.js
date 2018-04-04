@@ -8,7 +8,7 @@
     "lamos"
   ],
   "dependencies": {
-    "flush-write-stream": "^1.0.2",
+    "flush-write-stream": "^1.0.3",
     "lamos": "^3.0.0",
     "pump": "^1.0.2",
     "pumpify": "^1.3.5",
